@@ -1,10 +1,4 @@
-# Land Registry Design Manual
-
-The [design manual](http://design-manual.herokuapp.com/) is built using the GOV.UK Prototyping Kit.
-
-You need Node 4.2.2 to run this kit.
-
-## GOV.UK Prototyping Kit
+# GOV.UK Prototype kit
 
 The kit provides a simple way to make interactive prototypes that look like pages on GOV.UK. These prototypes can be used to show ideas to people you work with, and to do user research.
 
@@ -64,7 +58,7 @@ If you want to view multiple prototypes at the same time you can give them uniqu
 PORT=3005 node start.js
 ```
 
-To change the port number permanently, edit the port variable in /server.js. 
+To avoid conflicts we recommend using ports between 3000 and 3009. To change the port number permanently, edit the port variable in /server.js.
 
 #### Hot reload
 
@@ -74,7 +68,7 @@ The app recompiles app/assets/stylesheets/application.scss everytime changes are
 
 ## Documentation
 
-- [Prototyping kit principles](docs/principles.md)
+- [Prototype kit principles](docs/principles.md)
 - [Getting started](docs/getting-started.md)
 - [Making pages](docs/making-pages.md)
 - [Writing CSS](docs/writing-css.md)
@@ -85,3 +79,9 @@ The app recompiles app/assets/stylesheets/application.scss everytime changes are
 
 This project is built on top of Express, the idea is that it is straightforward to create simple static pages out of the box. However, you're not limited to that - more dynamic sites can be built with more understanding of Express. Here's a good [Express tutorial.](http://code.tutsplus.com/tutorials/introduction-to-express--net-33367)
 
+## Community
+
+We have two Slack channels for this app. You'll need a government email address to join them.
+
+* [Slack channel for users of the prototype kit](https://ukgovernmentdigital.slack.com/messages/prototype-kit/)
+* [Slack channel for developers of the prototype kit](https://ukgovernmentdigital.slack.com/messages/prototype-kit-dev/)
